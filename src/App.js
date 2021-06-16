@@ -9,6 +9,8 @@ function App() {
   gsap.registerPlugin(CSSRulePlugin)
   let arrowIcon = useRef(null);
 
+
+
   let imageOneRule = CSSRulePlugin.getRule(".gallery__item--1::after");
   let imageTwoRule = CSSRulePlugin.getRule(".gallery__item--2::after");
   let imageThreeRule = CSSRulePlugin.getRule(".gallery__item--3::after");
@@ -26,14 +28,18 @@ function App() {
       .from(".hero-text", 1.2, {
         y: 200,
         ease: "power4.out",
-        // delay: 1,
+
         opacity: 0,
         skewY: 10,
         stagger: {
           amount: 0.4
         }
       })
-
+      .to("img", 0.2, {
+        opacity: 1,
+        visibility: "visible",
+        delay: -1
+      })
       .to(imageOneRule, {
         duration: 1.2,
         width: "0%",
