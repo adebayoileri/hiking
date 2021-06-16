@@ -1,6 +1,6 @@
 ## Hiking Landing
 
-### A Landing page for a concept hiking portal from a awesome shot i got from [dribble]((https://dribbble.com/shots/4693512-Hiking-Landing)).
+ A Landing page for a concept hiking portal from a awesome shot i got from [dribble](https://dribbble.com/shots/4693512-Hiking-Landing).
 
 ## Installation
 
