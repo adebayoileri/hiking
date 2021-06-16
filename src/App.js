@@ -3,10 +3,10 @@ import "./sass/main.scss";
 import imageOne from "./images/image1.jpg"
 import imageTwo from "./images/image2.jpg"
 import imageThree from "./images/image3.jpg"
-import { TimelineMax } from 'gsap';
+import gsap, { TimelineMax } from 'gsap';
 import CSSRulePlugin from "gsap/CSSRulePlugin";
-
 function App() {
+  gsap.registerPlugin(CSSRulePlugin)
   let arrowIcon = useRef(null);
 
   let imageOneRule = CSSRulePlugin.getRule(".gallery__item--1::after");
