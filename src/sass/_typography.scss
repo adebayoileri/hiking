@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-Light.eot");
+  src: local("FF Good Pro Light"), local("../fonts/FFGoodPro/FFGoodPro-Light"),
+    url("../fonts/FFGoodPro/FFGoodPro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-Light.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-Light.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-Bold.eot");
+  src: local("FF Good Pro Bold"), local("../fonts/FFGoodPro/FFGoodPro-Bold"),
+    url("../fonts/FFGoodPro/FFGoodPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-Bold.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-Bold.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-Black.eot");
+  src: local("FF Good Pro Black"), local("../fonts/FFGoodPro/FFGoodPro-Black"),
+    url("../fonts/FFGoodPro/FFGoodPro-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-Black.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-Black.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-MediumItalic.eot");
+  src: local("FF Good Pro Medium Italic"),
+    local("../fonts/FFGoodPro/FFGoodPro-MediumItalic"),
+    url("../fonts/FFGoodPro/FFGoodPro-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-MediumItalic.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-MediumItalic.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-Italic.eot");
+  src: local("FF Good Pro Italic"), local("../fonts/FFGoodPro/FFGoodPro-Italic"),
+    url("../fonts/FFGoodPro/FFGoodPro-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-Italic.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-Italic.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-Medium.eot");
+  src: local("FF Good Pro Medium"), local("../fonts/FFGoodPro/FFGoodPro-Medium"),
+    url("../fonts/FFGoodPro/FFGoodPro-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-Medium.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-Medium.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src: url("../fonts/FFGoodPro/FFGoodPro-Regular.eot");
+  src: local("FF Good Pro"), local("../fonts/FFGoodPro/FFGoodPro-Regular"),
+    url("../fonts/FFGoodPro/FFGoodPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FFGoodPro/FFGoodPro-Regular.woff2") format("woff2"),
+    url("../fonts/FFGoodPro/FFGoodPro-Regular.woff") format("woff"),
+    url("../fonts/FFGoodPro/FFGoodPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quarion";
+  src: url("../fonts/Quarion/Rene\ Bieder\ -\ Quarion\ Book\ DEMO.otf")
+    format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+// TYPOGRAPHY
+.heading-lg {
+    font-size: 3.2rem;
+  }
+  .heading-md {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+  .heading-sm {
+    font-size: 1.6rem;
+  }
+  .heading-xs {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  
+  .ff-quarion {
+    font-family: "Quarion";
+  }
