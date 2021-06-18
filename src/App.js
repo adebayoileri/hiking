@@ -8,7 +8,9 @@ import CSSRulePlugin from "gsap/CSSRulePlugin";
 function App() {
   gsap.registerPlugin(CSSRulePlugin)
   let arrowIcon = useRef(null);
-
+  let imgOne = useRef(null);
+  let imgTwo = useRef(null);
+  let imgThree = useRef(null);
 
 
   let imageOneRule = CSSRulePlugin.getRule(".gallery__item--1::after");
@@ -35,11 +37,7 @@ function App() {
           amount: 0.4
         }
       })
-      .to("img", 0.2, {
-        opacity: 1,
-        visibility: "visible",
-        delay: -1
-      })
+
       .to(imageOneRule, {
         duration: 1.2,
         width: "0%",
@@ -47,18 +45,32 @@ function App() {
         delay: .3
       })
 
+      .from(imgOne, 1.2, {
+        scale: 1.6,
+        ease: "Power2.ease",
+        delay: -1.4
+      })
       .to(imageTwoRule, {
         duration: 1.2,
         height: "0%",
         delay: -1,
         ease: "Power2.easeInOut"
       })
-
+      .from(imgTwo, 1.2, {
+        scale: 1.6,
+        ease: "Power2.ease",
+        delay: -1.5
+      })
       .to(imageThreeRule, {
         duration: 1.2,
         height: "0%",
         delay: -1,
         ease: "Power2.easeInOut"
+      })
+      .from(imgThree, 1.2, {
+        scale: 1.6,
+        ease: "Power2.ease",
+        delay: -1.6
       })
       .to(arrowIcon, {
         opacity: 1,
@@ -93,13 +105,13 @@ function App() {
         </div>
         <div className="gallery">
           <figure className="gallery__item gallery__item--1">
-            <img src={imageOne} alt="hiking 1" loading="lazy" className="gallery__img" />
+            <img src={imageOne} alt="hiking 1" loading="lazy" ref={el => imgOne = el} className="gallery__img" />
           </figure>
           <figure className="gallery__item gallery__item--2">
-            <img src={imageTwo} alt="hiking 2" loading="lazy" className="gallery__img" />
+            <img src={imageTwo} alt="hiking 2" loading="lazy" ref={el => imgTwo = el} className="gallery__img" />
           </figure>
           <figure className="gallery__item gallery__item--3">
-            <img src={imageThree} alt="hiking 3" loading="lazy" className="gallery__img" />
+            <img src={imageThree} alt="hiking 3" loading="lazy" ref={el => imgThree = el} className="gallery__img" />
           </figure>
           <div className="gallery__icon" ref={el => arrowIcon = el}>
             &rarr;

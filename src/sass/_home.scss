@@ -58,14 +58,20 @@
     grid-column: page-start / page-end;
     grid-row: 3 / 4;
   }
+  &__item{
+    position: relative;
+ 
+    overflow: hidden;
+  }
   &__img {
     position: absolute;
     display: block;
-    object-fit: cover;
     width: 100%;
     height: 100%;
-    visibility: hidden;
-    opacity: 0;
+    object-fit: cover;
+    overflow: hidden;
+    // visibility: hidden;
+    // opacity: 0;
   }
 
   &__item--1 {
